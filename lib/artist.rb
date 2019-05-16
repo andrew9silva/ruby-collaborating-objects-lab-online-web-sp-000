@@ -24,9 +24,9 @@ class Artist
       artist.name == name
     end
     if found_artist == nil
-      Artist.new(name)
+      Artist.new(name).save
     end
-    
+
   end
 
   def print_songs
