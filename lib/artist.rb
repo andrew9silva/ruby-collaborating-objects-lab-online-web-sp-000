@@ -25,6 +25,8 @@ class Artist
     end
     if found_artist == nil
       Artist.new(name).save[-1]
+    else
+      found_artist 
     end
   end
 
