@@ -24,7 +24,7 @@ class Artist
       artist.name == name
     end
     if found_artist == nil
-      Artist.new
+      Artist.new(name)
     end
   end
 
