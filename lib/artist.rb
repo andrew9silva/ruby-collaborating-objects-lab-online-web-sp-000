@@ -23,8 +23,8 @@ class Artist
     found_artist = @@all.find do |artist|
       artist.name == name
     end
-    
-
+    if found_artist == false
+      Artist.new
   end
 
   def print_songs
