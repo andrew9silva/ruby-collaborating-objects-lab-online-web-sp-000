@@ -23,6 +23,7 @@ class Artist
     found_artist = @@all.find do |artist|
       artist.name == name
     end
+    
 
   end
 
